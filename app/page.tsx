@@ -1,5 +1,5 @@
 "use client";
-import { DatePickerDemo } from "@/components/date-picker";
+import { DatePicker } from "@/components/date-picker";
 import {
   Form,
   FormControl,
@@ -42,10 +42,7 @@ export default function Home() {
               <FormItem>
                 <FormLabel>Birthday</FormLabel>
                 <FormControl>
-                  <DatePickerDemo
-                    date={field.value}
-                    onChange={field.onChange}
-                  />
+                  <DatePicker date={field.value} onChange={field.onChange} />
                 </FormControl>
                 <FormDescription>This is your Birthday.</FormDescription>
                 <FormMessage />

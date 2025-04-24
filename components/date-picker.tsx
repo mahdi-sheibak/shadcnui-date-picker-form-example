@@ -18,7 +18,7 @@ interface Props {
   onChange: (newDate?: Date) => void;
 }
 
-export function DatePickerDemo({ date, onChange }: Props) {
+export function DatePicker({ date, onChange }: Props) {
   return (
     <Popover>
       <PopoverTrigger asChild>
